@@ -6,7 +6,7 @@ class Person
     @name = name
     @bank_account = 25
     @happiness = happiness # 0 < happiness < 10
-    @hygiene = hygiene
+    @hygiene = hygiene # 0 <hygiene < 10 
   end
   
 end
