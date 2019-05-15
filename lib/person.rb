@@ -47,9 +47,9 @@ class Person
       self.happiness -= 3
       "blah blah partisan blah lobbyist"
     elsif topic == "weather"
-      if person.happiness <=10
+      if person.happiness < 10
         person.happiness += 1 
-      elsif self.happiness <=10
+      elsif self.happiness < 10
         self.happiness += 1
       else 
         person.happiness
