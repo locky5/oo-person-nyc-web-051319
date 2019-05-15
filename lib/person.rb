@@ -6,6 +6,7 @@ class Person
     @name = name
     @bank_account = 25
     @happiness = happiness
+    @hygiene = hygiene
     if @hygiene < 0 
       @hygiene = 0
     elsif @hygiene > 10 
