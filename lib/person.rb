@@ -50,5 +50,7 @@ class Person
       "blah blah sun blah rain"
       person.@happiness += 1
       self.@happiness += 1 
+    else 
+      
   end
 end
