@@ -42,8 +42,14 @@ class Person
   end
   
   def call_friend(person)
-    person.happiness += 3
-    self.happiness += 3
+    if person.happiness > 7
+      person.happiness += 3
+    elsif self.happiness > 7   
+      self.happiness += 3
+    else
+      person.happiness
+      self.happiness
+    end
   end
   
   def start_conversation(person, topic)
