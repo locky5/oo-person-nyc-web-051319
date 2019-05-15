@@ -1,5 +1,5 @@
 class Person
-  attr_accessor :bank_account, :hygiene, :salary
+  attr_accessor :bank_account, :hygiene, :salary, :happiness
   attr_reader :name
   
   def happiness
