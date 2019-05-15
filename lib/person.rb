@@ -41,6 +41,8 @@ class Person
     "♪ another one bites the dust ♫"
   end
   
+  def call_friend(person)
+  
   def start_conversation(person, topic)
     if topic == "politics"
       if person.happiness >= 2 
