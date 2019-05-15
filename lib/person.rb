@@ -43,6 +43,8 @@ class Person
   
   def call_friend(person)
     person.happiness += 3
+    self.happiness += 3
+  end
   
   def start_conversation(person, topic)
     if topic == "politics"
