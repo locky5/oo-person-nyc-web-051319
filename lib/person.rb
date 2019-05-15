@@ -44,10 +44,12 @@ class Person
   def call_friend(person)
     if person.happiness > 7
       person.happiness += 3
-    elsif self.happiness > 7   
-      self.happiness += 3
     else
       person.happiness
+    end
+    if self.happiness > 7   
+      self.happiness += 3
+    else
       self.happiness
     end
   end
