@@ -5,8 +5,12 @@ class Person
   def initialize(name, happiness = 8, hygiene = 8)
     @name = name
     @bank_account = 25
-    @happiness = happiness # 0 < happiness < 10
-    @hygiene = hygiene # 0 <hygiene < 10 
+    @happiness = happiness
+    if self.hygiene < 0 
+      self.hygiene = 0
+    else 
+      self.hygiene
+    end
   end
   
   def happy?
