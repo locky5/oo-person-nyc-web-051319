@@ -7,9 +7,9 @@ class Person
     @bank_account = 25
     @happiness = happiness
     if @happiness < 0 
-      @happiness = 0
+      happiness = 0
     elsif @happiness >= 10 
-      @happiness = 10 
+      happiness = 10 
     else 
       @happiness 
     end
