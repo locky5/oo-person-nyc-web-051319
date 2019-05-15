@@ -52,6 +52,7 @@ class Person
     else
       self.happiness = 10 
     end
+    "Hi #{person}! It's #{self}. How are you?"
   end
   
   def start_conversation(person, topic)
