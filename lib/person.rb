@@ -41,6 +41,4 @@ class Person
     "♪ another one bites the dust ♫"
   end
   
-  def call_friend(self)
-    self.happiness
 end
