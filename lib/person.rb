@@ -105,7 +105,7 @@ class Person
         person.happiness
       end 
       if self.happiness < 10 
-        self.happiness=person.happiness + 1 
+        self.happiness=self.happiness + 1 
       else 
         self.happiness 
       end
