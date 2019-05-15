@@ -34,4 +34,7 @@ class Person
     @hygiene += 4 # can't go over 10 for now 
     "♪ Rub-a-dub just relaxingin the tub ♫"
   end
+  
+  def work_out
+    @hygiene -= 3
 end
