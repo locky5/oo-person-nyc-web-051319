@@ -31,7 +31,11 @@ class Person
   end
   
   def take_bath
-    @hygiene += 4 # can't go over 10 for now 
+    if self.hygiene < 7
+      self.hygiene += 4
+    else 
+      self.hygiene = 10 
+    end
     "♪ Rub-a-dub just relaxingin the tub ♫"
   end
   
