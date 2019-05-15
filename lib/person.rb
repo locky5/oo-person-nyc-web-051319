@@ -51,6 +51,6 @@ class Person
       person.@happiness += 1
       self.@happiness += 1 
     else 
-      
+      "blah blah blah blah blah"
   end
 end
