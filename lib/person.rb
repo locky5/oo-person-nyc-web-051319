@@ -47,6 +47,8 @@ class Person
       person.@happiness -= 3
       self.@happiness -= 3
     elsif topic == "weather"
-      
+      "blah blah sun blah rain"
+      person.@happiness += 1
+      self.@happiness += 1 
   end
 end
