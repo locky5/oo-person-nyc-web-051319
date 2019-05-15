@@ -100,14 +100,10 @@ class Person
       "blah blah partisan blah lobbyist"
     elsif topic == "weather"
       if person.happiness < 10
-        person.happiness=person.happiness + 1 
-      else 
-        person.happiness
+        person.happiness += 1 
       end 
       if self.happiness < 10 
-        self.happiness=self.happiness + 1 
-      else 
-        self.happiness 
+        self.happiness += 1 
       end
       "blah blah sun blah rain"
     else 
