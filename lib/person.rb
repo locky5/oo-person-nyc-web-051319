@@ -51,7 +51,7 @@ class Person
   def take_bath
     if self.hygiene < 7
       self.hygiene += 4
-    else 
+    elsif self.hygiene >= 10 
       self.hygiene = 10 
     end
     "♪ Rub-a-dub just relaxing in the tub ♫"
