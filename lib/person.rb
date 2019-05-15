@@ -87,7 +87,7 @@ class Person
         person.happiness = 10
       end 
       if self.happiness < 10 
-        self.happiness -= 1 
+        self.happiness += 1 
       else 
         self.happiness = 10 
       end
