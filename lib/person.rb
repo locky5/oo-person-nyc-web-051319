@@ -41,4 +41,7 @@ class Person
     "♪ another one bites the dust ♫"
   end
   
+  def start_conversation(person, topic)
+
+  end
 end
