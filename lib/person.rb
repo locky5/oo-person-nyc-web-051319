@@ -47,8 +47,11 @@ class Person
       self.happiness -= 3
       "blah blah partisan blah lobbyist"
     elsif topic == "weather"
-      person.happiness += 1
-      self.happiness += 1
+      if person.happiness <=10
+        person.happiness += 1
+      elsif self.happiness <=10
+        self.happiness += 1
+      end
       "blah blah sun blah rain"
     else 
       "blah blah blah blah blah"
