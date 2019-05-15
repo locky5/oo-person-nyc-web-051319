@@ -10,6 +10,7 @@ class Person
       @happiness = 0
     elsif @happiness >= 10 
       @happiness = 10 
+      @happiness
     else 
       @happiness 
     end
@@ -21,10 +22,6 @@ class Person
     else 
       @hygiene 
     end
-  end
-  
-  def happiness
-    @happiness
   end
   
   def happy?
