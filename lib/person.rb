@@ -83,10 +83,12 @@ class Person
     elsif topic == "weather"
       if person.happiness < 10
         person.happiness += 1 
-      elsif self.happiness < 10
-        self.happiness += 1
       else 
-        person.happiness
+        person.happiness += 1
+      end 
+      if self.happiness < 10 
+        self.happiness -= 1 
+      else 
         self.happiness
       end
       "blah blah sun blah rain"
