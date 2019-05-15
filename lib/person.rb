@@ -36,7 +36,7 @@ class Person
     else 
       self.hygiene = 10 
     end
-    "♪ Rub-a-dub just relaxingin the tub ♫"
+    "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   
   def work_out
