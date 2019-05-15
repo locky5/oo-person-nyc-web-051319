@@ -58,8 +58,8 @@ class Person
   end
   
   def work_out
-    self.hygiene -= 3
-    self.happiness += 2
+    self.hygiene -= 3 # limits were defined above
+    self.happiness += 2 # limits were defined above
     "♪ another one bites the dust ♫"
   end
   
