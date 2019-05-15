@@ -10,7 +10,6 @@ class Person
       @happiness = 0
     elsif @happiness >= 10 
       @happiness = 10 
-      @happiness
     else 
       @happiness 
     end
