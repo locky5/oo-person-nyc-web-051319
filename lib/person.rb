@@ -9,4 +9,19 @@ class Person
     @hygiene = hygiene # 0 <hygiene < 10 
   end
   
+  def happy?
+    if @happiness > 7
+      true 
+    else 
+      false 
+    end
+  end
+  
+  def clean?
+    if @hygiene > 7
+      true
+    else
+      false
+    end
+  end
 end
