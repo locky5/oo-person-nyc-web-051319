@@ -6,11 +6,6 @@ class Person
     @name = name
     @bank_account = 25
     @happiness = happiness
-    if @happiness < 0 
-      @happiness = 0
-    elsif @happiness >= 10 
-      @happiness = 10 
-    end
     @hygiene = hygiene
     if @hygiene < 0 
       @hygiene = 0
@@ -19,8 +14,13 @@ class Person
     end
   end
   
-  def happiness(value)
-    if 
+  def happiness=(value)
+    @happiness = value 
+    if @happiness < 0 
+      @happiness = 0 
+    elsif @happiness >= 10 
+    @happiness = 10 
+  end
   
   def happy?
     if @happiness > 7
