@@ -45,12 +45,12 @@ class Person
     if person.happiness < 8
       person.happiness += 3
     else
-      person.happiness
+      person.happiness = 10 
     end
     if self.happiness < 8   
       self.happiness += 3
     else
-      self.happiness
+      self.happiness = 10 
     end
   end
   
