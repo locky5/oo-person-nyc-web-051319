@@ -8,8 +8,10 @@ class Person
     @happiness = happiness
     if self.hygiene < 0 
       self.hygiene = 0
+    elsif self.hygiene > 10 
+      self.hygiene = 10 
     else 
-      self.hygiene
+      self.hygiene 
     end
   end
   
