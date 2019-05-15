@@ -71,11 +71,13 @@ class Person
     if topic == "politics"
       if person.happiness >= 2 
         person.happiness -= 2
-      elsif person.happiness >= 2
-        self.happiness -= 2
-      else
-        person.happiness
-        self.happiness
+      else 
+        person.happiness = 0
+      end
+      if self.happiness >= 2 
+        self.happiness -= 2 
+      else 
+        self.happiness = 0 
       end
       "blah blah partisan blah lobbyist"
     elsif topic == "weather"
