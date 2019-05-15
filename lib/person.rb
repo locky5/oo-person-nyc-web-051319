@@ -1,5 +1,5 @@
 class Person
-  attr_accessor :bank_account, :happiness, :hygiene
+  attr_accessor :bank_account, :happiness, :hygiene, :salary
   attr_reader :name
   
   def initialize(name, happiness = 8, hygiene = 8)
@@ -26,4 +26,6 @@ class Person
   end
   
   def get_paid(salary)
+    @bank_account += salary
+  end
 end
