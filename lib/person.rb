@@ -46,6 +46,7 @@ class Person
       "blah blah partisan blah lobbyist"
       person.@happiness -= 3
       self.@happiness -= 3
+    elsif topic == "weather"
       
   end
 end
