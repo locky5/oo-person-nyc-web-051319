@@ -49,7 +49,6 @@ class Person
   end
   
   def take_bath
-    @hygiene = hygiene
     if self.hygiene < 7
       self.hygiene += 4
     else 
