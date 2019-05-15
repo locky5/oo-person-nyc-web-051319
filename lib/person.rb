@@ -40,10 +40,12 @@ class Person
       self.hygiene -= 3
     else
       self.hygiene = 0
+    end
     if self.happiness < 8
       self.happiness += 2
     else 
-      self.happiness = 10 
+      self.happiness = 10
+    end
     "♪ another one bites the dust ♫"
   end
   
