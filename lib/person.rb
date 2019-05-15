@@ -14,7 +14,7 @@ class Person
     end
   end
   
-  def happiness=(value)
+  def happiness=(value) # since we want to use happiness=
     @happiness = value 
     if @happiness < 0 
       @happiness = 0 
