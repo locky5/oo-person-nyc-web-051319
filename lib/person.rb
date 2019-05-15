@@ -84,12 +84,12 @@ class Person
       if person.happiness < 10
         person.happiness += 1 
       else 
-        person.happiness += 1
+        person.happiness = 10
       end 
       if self.happiness < 10 
         self.happiness -= 1 
       else 
-        self.happiness
+        self.happiness = 10 
       end
       "blah blah sun blah rain"
     else 
