@@ -31,7 +31,7 @@ class Person
   end
   
   def take_bath
-    @hygiene += 4
+    @hygiene += 4 # can't go over 10 for now 
     "♪ Rub-a-dub just relaxingin the tub ♫"
   end
 end
