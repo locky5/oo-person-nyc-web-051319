@@ -80,7 +80,7 @@ class Person
     if self.happiness < 8   
       self.happiness += 3
     else
-      self.happiness
+      self.happiness = 10
     end
     "Hi #{person.name}! It's #{self.name}. How are you?"
   end
